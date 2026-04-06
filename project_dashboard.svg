@@ -1,0 +1,74 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#0F1117"/>
+
+  <!-- sidebar -->
+  <rect x="0" y="0" width="60" height="300" fill="#161B22"/>
+  <circle cx="30" cy="30" r="10" fill="#1D9E75" opacity="0.8"/>
+  <rect x="14" y="60" width="32" height="6" rx="3" fill="#30363D"/>
+  <rect x="14" y="76" width="32" height="6" rx="3" fill="#30363D"/>
+  <rect x="14" y="92" width="32" height="6" rx="3" fill="#238636" opacity="0.7"/>
+  <rect x="14" y="108" width="32" height="6" rx="3" fill="#30363D"/>
+
+  <!-- metric cards -->
+  <rect x="72" y="12" width="80" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <rect x="162" y="12" width="80" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <rect x="252" y="12" width="80" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <rect x="342" y="12" width="50" height="50" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="80" y="26">RECEITA</text>
+  <text font-family="Arial" font-size="13" font-weight="700" fill="#E6EDF3" x="80" y="44">R$48.2k</text>
+  <text font-family="Arial" font-size="7" fill="#238636" x="80" y="56">▲ 12.4%</text>
+
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="170" y="26">PEDIDOS</text>
+  <text font-family="Arial" font-size="13" font-weight="700" fill="#E6EDF3" x="170" y="44">1,284</text>
+  <text font-family="Arial" font-size="7" fill="#238636" x="170" y="56">▲ 8.1%</text>
+
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="260" y="26">USUÁRIOS</text>
+  <text font-family="Arial" font-size="13" font-weight="700" fill="#E6EDF3" x="260" y="44">9,741</text>
+  <text font-family="Arial" font-size="7" fill="#F85149" x="260" y="56">▼ 2.3%</text>
+
+  <!-- chart area -->
+  <rect x="72" y="74" width="200" height="120" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <text font-family="Arial" font-size="8" fill="#8B949E" x="82" y="89">Receita mensal</text>
+  <!-- bars -->
+  <rect x="86"  y="158" width="14" height="30" rx="2" fill="#1D9E75" opacity="0.5"/>
+  <rect x="104" y="148" width="14" height="40" rx="2" fill="#1D9E75" opacity="0.6"/>
+  <rect x="122" y="135" width="14" height="53" rx="2" fill="#1D9E75" opacity="0.7"/>
+  <rect x="140" y="142" width="14" height="46" rx="2" fill="#1D9E75" opacity="0.65"/>
+  <rect x="158" y="125" width="14" height="63" rx="2" fill="#1D9E75" opacity="0.8"/>
+  <rect x="176" y="110" width="14" height="78" rx="2" fill="#1D9E75"/>
+  <rect x="194" y="118" width="14" height="70" rx="2" fill="#1D9E75" opacity="0.9"/>
+  <rect x="212" y="100" width="14" height="88" rx="2" fill="#58A6FF"/>
+  <line x1="82" y1="168" x2="258" y2="168" stroke="#30363D" stroke-width="0.5"/>
+
+  <!-- donut chart -->
+  <rect x="282" y="74" width="110" height="120" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <text font-family="Arial" font-size="8" fill="#8B949E" x="292" y="89">Categorias</text>
+  <circle cx="337" cy="145" r="32" fill="none" stroke="#1D9E75" stroke-width="10" stroke-dasharray="80 121" stroke-dashoffset="0"/>
+  <circle cx="337" cy="145" r="32" fill="none" stroke="#58A6FF" stroke-width="10" stroke-dasharray="50 151" stroke-dashoffset="-80"/>
+  <circle cx="337" cy="145" r="32" fill="none" stroke="#F0883E" stroke-width="10" stroke-dasharray="30 171" stroke-dashoffset="-130"/>
+  <circle cx="337" cy="145" r="18" fill="#161B22"/>
+
+  <!-- table -->
+  <rect x="72" y="204" width="320" height="72" rx="8" fill="#161B22" stroke="#30363D" stroke-width="0.5"/>
+  <rect x="72" y="204" width="320" height="20" rx="8" fill="#21262D"/>
+  <rect x="72" y="216" width="320" height="8" fill="#21262D"/>
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="82" y="218">PRODUTO</text>
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="220" y="218">VENDAS</text>
+  <text font-family="Arial" font-size="7" fill="#8B949E" x="320" y="218">STATUS</text>
+  <rect x="72" y="224" width="320" height="0.5" fill="#30363D"/>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="82" y="238">Produto Alpha</text>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="220" y="238">482</text>
+  <rect x="316" y="230" width="40" height="12" rx="6" fill="#1D9E75" opacity="0.2"/>
+  <text font-family="Arial" font-size="7" fill="#1D9E75" x="336" y="239" text-anchor="middle">Ativo</text>
+  <rect x="72" y="244" width="320" height="0.5" fill="#30363D"/>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="82" y="258">Produto Beta</text>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="220" y="258">319</text>
+  <rect x="316" y="250" width="40" height="12" rx="6" fill="#F85149" opacity="0.2"/>
+  <text font-family="Arial" font-size="7" fill="#F85149" x="336" y="259" text-anchor="middle">Pausado</text>
+  <rect x="72" y="264" width="320" height="0.5" fill="#30363D"/>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="82" y="278">Produto Gamma</text>
+  <text font-family="Arial" font-size="7" fill="#E6EDF3" x="220" y="278">571</text>
+  <rect x="316" y="270" width="40" height="12" rx="6" fill="#1D9E75" opacity="0.2"/>
+  <text font-family="Arial" font-size="7" fill="#1D9E75" x="336" y="279" text-anchor="middle">Ativo</text>
+</svg>
