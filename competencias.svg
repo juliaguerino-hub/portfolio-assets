@@ -1,0 +1,92 @@
+<svg width="900" height="900" viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap');
+    </style>
+  </defs>
+
+  <!-- fundo branco -->
+  <rect width="900" height="900" fill="#FFFFFF"/>
+
+  <!-- linhas de conexão — cor suave teal -->
+  <!-- centro: 450, 450 -->
+
+  <!-- JavaScript: 450, 110 -->
+  <line x1="450" y1="390" x2="450" y2="170" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- HTML5: 175, 210 -->
+  <line x1="390" y1="415" x2="255" y2="268" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- React: 725, 210 -->
+  <line x1="510" y1="415" x2="645" y2="268" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Acessibilidade: 110, 400 -->
+  <line x1="390" y1="445" x2="248" y2="408" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- TypeScript: 790, 400 -->
+  <line x1="510" y1="445" x2="652" y2="408" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Figma: 130, 620 -->
+  <line x1="396" y1="478" x2="248" y2="580" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Tailwind: 770, 620 -->
+  <line x1="504" y1="478" x2="652" y2="580" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Design Systems: 270, 730 -->
+  <line x1="420" y1="492" x2="338" y2="690" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- Performance: 450, 760 -->
+  <line x1="450" y1="492" x2="450" y2="720" stroke="#1D9E75" stroke-width="1.2" opacity="0.35"/>
+
+  <!-- NÓ CENTRAL -->
+  <rect x="318" y="388" width="264" height="104" rx="20" fill="#085041"/>
+  <rect x="318" y="388" width="264" height="104" rx="20" fill="none" stroke="#1D9E75" stroke-width="2"/>
+  <text font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" x="450" y="428" text-anchor="middle">Luiz Moura</text>
+  <text font-family="Inter, sans-serif" font-size="13" font-weight="400" fill="#5DCAA5" x="450" y="454" text-anchor="middle">Frontend Developer</text>
+
+  <!-- JAVASCRIPT — topo centro -->
+  <rect x="320" y="90" width="260" height="76" rx="14" fill="#FEF9EC" stroke="#E8C840" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#7A6000" x="450" y="122" text-anchor="middle">JavaScript (ES6+)</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#A08020" x="450" y="143" text-anchor="middle">Linguagem base</text>
+
+  <!-- HTML5 — topo esquerdo -->
+  <rect x="80" y="188" width="230" height="76" rx="14" fill="#E8F5F0" stroke="#5DCAA5" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#085041" x="195" y="220" text-anchor="middle">HTML5 &amp; CSS3</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#0F6E56" x="195" y="241" text-anchor="middle">Estrutura &amp; estilo</text>
+
+  <!-- REACT — topo direito -->
+  <rect x="590" y="188" width="230" height="76" rx="14" fill="#EBF4FB" stroke="#85B7EB" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#0C447C" x="705" y="220" text-anchor="middle">React</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#185FA5" x="705" y="241" text-anchor="middle">Componentes UI</text>
+
+  <!-- ACESSIBILIDADE — esquerdo meio -->
+  <rect x="30" y="368" width="220" height="76" rx="14" fill="#EAF3DE" stroke="#97C459" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#27500A" x="140" y="400" text-anchor="middle">Acessibilidade</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#3B6D11" x="140" y="421" text-anchor="middle">WCAG &amp; ARIA</text>
+
+  <!-- TYPESCRIPT — direito meio -->
+  <rect x="650" y="368" width="220" height="76" rx="14" fill="#EBF4FB" stroke="#85B7EB" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#0C447C" x="760" y="400" text-anchor="middle">TypeScript</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#185FA5" x="760" y="421" text-anchor="middle">Tipagem estática</text>
+
+  <!-- FIGMA — baixo esquerdo -->
+  <rect x="50" y="542" width="210" height="76" rx="14" fill="#FBEAF0" stroke="#ED93B1" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#72243E" x="155" y="574" text-anchor="middle">Figma</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#993556" x="155" y="595" text-anchor="middle">Design &amp; protótipo</text>
+
+  <!-- TAILWIND — baixo direito -->
+  <rect x="640" y="542" width="220" height="76" rx="14" fill="#E8F5F0" stroke="#5DCAA5" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#085041" x="750" y="574" text-anchor="middle">Tailwind CSS</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#0F6E56" x="750" y="595" text-anchor="middle">Utility-first CSS</text>
+
+  <!-- DESIGN SYSTEMS — baixo esquerdo centro -->
+  <rect x="160" y="692" width="250" height="76" rx="14" fill="#EEEDFE" stroke="#AFA9EC" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#26215C" x="285" y="724" text-anchor="middle">Design Systems</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#534AB7" x="285" y="745" text-anchor="middle">Componentes escaláveis</text>
+
+  <!-- PERFORMANCE — baixo centro -->
+  <rect x="320" y="722" width="260" height="76" rx="14" fill="#FAECE7" stroke="#F0997B" stroke-width="1.5"/>
+  <text font-family="Inter, sans-serif" font-size="15" font-weight="700" fill="#4A1B0C" x="450" y="754" text-anchor="middle">Performance web</text>
+  <text font-family="Inter, sans-serif" font-size="12" fill="#993C1D" x="450" y="775" text-anchor="middle">Core Web Vitals</text>
+
+</svg>
