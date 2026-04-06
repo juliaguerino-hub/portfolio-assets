@@ -1,0 +1,28 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#F5F0EA"/>
+
+  <!-- globo estilizado: círculo + meridianos -->
+  <circle cx="100" cy="88" r="52" fill="none" stroke="#C0392B" stroke-width="3"/>
+  <!-- equador -->
+  <line x1="48" y1="88" x2="152" y2="88" stroke="#C0392B" stroke-width="2" opacity="0.5"/>
+  <!-- meridiano central -->
+  <ellipse cx="100" cy="88" rx="24" ry="52" fill="none" stroke="#C0392B" stroke-width="2" opacity="0.5"/>
+  <!-- meridiano secundário -->
+  <ellipse cx="100" cy="88" rx="46" ry="52" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.2"/>
+  <!-- paralelo superior -->
+  <path d="M62 66 Q100 58 138 66" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.4"/>
+  <!-- paralelo inferior -->
+  <path d="M62 110 Q100 118 138 110" fill="none" stroke="#C0392B" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- G inicial sobreposta -->
+  <circle cx="100" cy="88" r="20" fill="#F5F0EA"/>
+  <text font-family="Georgia, serif" font-size="26" font-weight="700" fill="#C0392B" x="100" y="97" text-anchor="middle">G</text>
+
+  <text font-family="Georgia, serif" font-size="12" font-weight="700" fill="#1A1A1A" x="100" y="160" text-anchor="middle" letter-spacing="1">GLOBAL</text>
+  <text font-family="Arial, sans-serif" font-size="9" fill="#C0392B" x="100" y="174" text-anchor="middle" letter-spacing="4">DESIGN</text>
+
+  <!-- linha ornamental -->
+  <line x1="56" y1="180" x2="144" y2="180" stroke="#C0392B" stroke-width="0.8" opacity="0.5"/>
+  <circle cx="56" cy="180" r="2" fill="#C0392B" opacity="0.5"/>
+  <circle cx="144" cy="180" r="2" fill="#C0392B" opacity="0.5"/>
+</svg>
