@@ -18,12 +18,6 @@
     <text x="40" y="104" text-anchor="middle" fill="#dc2743" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Instagram</text>
   </g>
 
-  <!-- LinkedIn -->
-  <g transform="translate(160, 30)">
-    <rect width="80" height="80" rx="14" fill="#0A66C2"/>
-    <text x="14" y="54" font-family="Georgia,serif" font-size="48" font-weight="700" fill="white">in</text>
-    <text x="40" y="104" text-anchor="middle" fill="#0A66C2" font-family="system-ui,sans-serif" font-size="13" font-weight="600">LinkedIn</text>
-  </g>
 
   <!-- WhatsApp -->
   <g transform="translate(280, 30)">
