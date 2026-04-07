@@ -1,0 +1,5 @@
+<svg width="120" height="140" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg">
+  <rect x="20" y="10" width="80" height="80" rx="14" fill="#1769FF"/>
+  <text x="35" y="61" font-family="system-ui,sans-serif" font-size="38" font-weight="800" fill="white">Bē</text>
+  <text x="60" y="114" text-anchor="middle" fill="#1769FF" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Behance</text>
+</svg>
