@@ -1,22 +1,4 @@
-<svg width="680" height="180" viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- Instagram -->
-  <g transform="translate(40, 30)">
-    <defs>
-      <linearGradient id="ig-grad" x1="0%" y1="100%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#f09433"/>
-        <stop offset="25%" stop-color="#e6683c"/>
-        <stop offset="50%" stop-color="#dc2743"/>
-        <stop offset="75%" stop-color="#cc2366"/>
-        <stop offset="100%" stop-color="#bc1888"/>
-      </linearGradient>
-    </defs>
-    <rect width="80" height="80" rx="18" fill="url(#ig-grad)"/>
-    <rect x="16" y="16" width="48" height="48" rx="14" fill="none" stroke="white" stroke-width="4"/>
-    <circle cx="40" cy="40" r="11" fill="none" stroke="white" stroke-width="4"/>
-    <circle cx="58" cy="22" r="4" fill="white"/>
-    <text x="40" y="104" text-anchor="middle" fill="#dc2743" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Instagram</text>
-  </g>
+<svg width="135" height="180" viewBox="0 0 680 180" xmlns="http://www.w3.org/2000/svg">
 
 <!-- LinkedIn -->
   <g transform="translate(160, 30)">
