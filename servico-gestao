@@ -1,0 +1,69 @@
+<svg width="800" height="480" viewBox="0 0 800 480" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Gestão Ambiental</title>
+<desc>Ciclo de gestão ambiental com ícones de monitoramento, planejamento e ação sustentável</desc>
+<style>.ft{font-family:'Segoe UI',Arial,sans-serif}</style>
+
+<rect width="800" height="480" fill="#1A3A5C"/>
+<rect x="0" y="380" width="800" height="100" fill="#122A44"/>
+<circle cx="720" cy="80" r="120" fill="#152E4A"/>
+<circle cx="60" cy="420" r="80" fill="#152E4A"/>
+
+<!-- Central circle -->
+<circle cx="400" cy="210" r="90" fill="#0D3D6B" stroke="#2980C8" stroke-width="2"/>
+<circle cx="400" cy="210" r="70" fill="#1A3A5C"/>
+<text x="400" y="205" class="ft" font-size="13" fill="#7EC8F4" text-anchor="middle" font-weight="700">GESTÃO</text>
+<text x="400" y="224" class="ft" font-size="13" fill="#7EC8F4" text-anchor="middle" font-weight="700">AMBIENTAL</text>
+
+<!-- Orbit ring -->
+<circle cx="400" cy="210" r="130" fill="none" stroke="#2463A8" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+<!-- Node: Monitoramento -->
+<circle cx="400" cy="68" r="36" fill="#165A9C" stroke="#378ADD" stroke-width="2"/>
+<path d="M384 60 L416 60 L416 76 L384 76 Z" fill="none" stroke="#7EC8F4" stroke-width="2"/>
+<circle cx="400" cy="68" r="4" fill="#7EC8F4"/>
+<path d="M390 76 L394 68 L400 72 L406 64 L410 68" stroke="#5BB5F0" stroke-width="2" fill="none"/>
+<text x="400" y="118" class="ft" font-size="11" fill="#B5D4F4" text-anchor="middle" font-weight="600">Monitoramento</text>
+
+<!-- Node: Planejamento (right) -->
+<circle cx="530" cy="140" r="36" fill="#165A9C" stroke="#378ADD" stroke-width="2"/>
+<rect x="514" y="128" width="32" height="24" rx="3" fill="none" stroke="#7EC8F4" stroke-width="2"/>
+<rect x="518" y="133" width="10" height="2" rx="1" fill="#7EC8F4"/>
+<rect x="518" y="138" width="16" height="2" rx="1" fill="#7EC8F4"/>
+<rect x="518" y="143" width="12" height="2" rx="1" fill="#7EC8F4"/>
+<text x="588" y="145" class="ft" font-size="11" fill="#B5D4F4" text-anchor="start" font-weight="600">Planejamento</text>
+
+<!-- Node: Ação (bottom right) -->
+<circle cx="530" cy="280" r="36" fill="#165A9C" stroke="#378ADD" stroke-width="2"/>
+<polygon points="400,266 415,282 400,298 385,282" fill="none" stroke="#7EC8F4" stroke-width="2" transform="translate(130,0)"/>
+<path d="M524 280 L532 272 L540 280 L532 288 Z" fill="#7EC8F4"/>
+<text x="588" y="285" class="ft" font-size="11" fill="#B5D4F4" text-anchor="start" font-weight="600">Ação</text>
+
+<!-- Node: Avaliação (bottom left) -->
+<circle cx="270" cy="280" r="36" fill="#165A9C" stroke="#378ADD" stroke-width="2"/>
+<circle cx="270" cy="280" r="14" fill="none" stroke="#7EC8F4" stroke-width="2"/>
+<circle cx="270" cy="280" r="6" fill="#7EC8F4"/>
+<text x="196" y="285" class="ft" font-size="11" fill="#B5D4F4" text-anchor="end" font-weight="600">Avaliação</text>
+
+<!-- Node: Legislação (left) -->
+<circle cx="270" cy="140" r="36" fill="#165A9C" stroke="#378ADD" stroke-width="2"/>
+<rect x="256" y="128" width="28" height="24" rx="2" fill="none" stroke="#7EC8F4" stroke-width="2"/>
+<path d="M262 136 L278 136" stroke="#7EC8F4" stroke-width="2"/>
+<path d="M262 141 L278 141" stroke="#7EC8F4" stroke-width="2"/>
+<path d="M262 146 L272 146" stroke="#7EC8F4" stroke-width="2"/>
+<text x="196" y="145" class="ft" font-size="11" fill="#B5D4F4" text-anchor="end" font-weight="600">Legislação</text>
+
+<!-- Connecting arcs -->
+<path d="M400 104 A130 130 0 0 1 494 158" stroke="#2980C8" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+<path d="M494 262 A130 130 0 0 1 400 340" stroke="#2980C8" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+<path d="M400 340 A130 130 0 0 1 306 262" stroke="#2980C8" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+<path d="M306 158 A130 130 0 0 1 400 104" stroke="#2980C8" stroke-width="2" fill="none" stroke-dasharray="4,3"/>
+
+<!-- Small leaf accents -->
+<ellipse cx="136" cy="200" rx="18" ry="28" fill="#1D9E75" transform="rotate(-30,136,200)"/>
+<ellipse cx="148" cy="215" rx="14" ry="22" fill="#27C48A" transform="rotate(20,148,215)"/>
+<ellipse cx="655" cy="330" rx="16" ry="25" fill="#1D9E75" transform="rotate(25,655,330)"/>
+<ellipse cx="666" cy="316" rx="12" ry="18" fill="#27C48A" transform="rotate(-15,666,316)"/>
+
+<text x="400" y="424" class="ft" font-size="22" fill="#7EC8F4" text-anchor="middle" font-weight="700">Gestão Ambiental</text>
+<text x="400" y="450" class="ft" font-size="13" fill="#4A90D9" text-anchor="middle">Ciclo integrado de planejamento, ação e monitoramento</text>
+</svg>
