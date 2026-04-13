@@ -1,0 +1,94 @@
+<svg width="800" height="480" viewBox="0 0 800 480" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Recuperação de Áreas Degradadas</title>
+<desc>Antes e depois mostrando a transformação de área degradada em área verde recuperada</desc>
+<style>.ft{font-family:'Segoe UI',Arial,sans-serif}</style>
+
+<rect width="800" height="480" fill="#1A2A10"/>
+<rect x="0" y="390" width="800" height="90" fill="#0F1A08"/>
+<circle cx="720" cy="60" r="100" fill="#141F0A"/>
+<circle cx="70" cy="430" r="65" fill="#141F0A"/>
+
+<!-- Divider arrow -->
+<path d="M380 120 L420 120 L400 145 Z" fill="#9FE1CB"/>
+<rect x="394" y="80" width="12" height="42" rx="6" fill="#9FE1CB"/>
+<text x="400" y="72" class="ft" font-size="10" fill="#9FE1CB" text-anchor="middle" font-weight="600">ANTES → DEPOIS</text>
+
+<!-- LEFT: Degraded area -->
+<rect x="40" y="120" width="310" height="220" rx="10" fill="#2A1A0A"/>
+<text x="195" y="142" class="ft" font-size="11" fill="#E24B4A" text-anchor="middle" font-weight="700">ÁREA DEGRADADA</text>
+
+<!-- cracked earth -->
+<rect x="55" y="155" width="280" height="120" rx="4" fill="#4A3020"/>
+<path d="M80 175 L110 195 L95 220 L130 240 L120 265" stroke="#2A1A0A" stroke-width="3" fill="none"/>
+<path d="M150 160 L165 185 L145 200 L170 225" stroke="#2A1A0A" stroke-width="2.5" fill="none"/>
+<path d="M200 170 L220 190 L205 215 L235 235 L215 260" stroke="#2A1A0A" stroke-width="3" fill="none"/>
+<path d="M270 165 L255 190 L280 210" stroke="#2A1A0A" stroke-width="2" fill="none"/>
+<!-- dead stumps -->
+<rect x="90" y="230" width="10" height="30" rx="3" fill="#3A2510"/>
+<path d="M85 230 Q95 225 105 230" stroke="#2A1A0A" stroke-width="2" fill="none"/>
+<rect x="240" y="235" width="12" height="28" rx="3" fill="#3A2510"/>
+<path d="M235 235 Q246 230 257 235" stroke="#2A1A0A" stroke-width="2" fill="none"/>
+<!-- erosion marks -->
+<path d="M55 275 Q90 265 130 278 Q170 290 210 275 Q250 260 295 272 L335 275 L335 275 L55 275 Z" fill="#3A2510"/>
+<!-- rocks -->
+<ellipse cx="170" cy="260" rx="15" ry="8" fill="#5A4030"/>
+<ellipse cx="290" cy="248" rx="12" ry="6" fill="#5A4030"/>
+<ellipse cx="120" cy="252" rx="10" ry="5" fill="#5A4030"/>
+
+<!-- warning signs -->
+<rect x="70" y="305" width="260" height="28" rx="4" fill="#4A1010"/>
+<text x="200" y="323" class="ft" font-size="10" fill="#F09595" text-anchor="middle">Erosão  •  Solo exposto  •  Assoreamento</text>
+
+<!-- RIGHT: Recovered area -->
+<rect x="450" y="120" width="310" height="220" rx="10" fill="#0F3A10"/>
+<text x="605" y="142" class="ft" font-size="11" fill="#27C48A" text-anchor="middle" font-weight="700">ÁREA RECUPERADA</text>
+
+<!-- Ground -->
+<rect x="465" y="245" width="280" height="80" rx="4" fill="#2A5A10"/>
+<rect x="465" y="245" width="280" height="10" fill="#3B7A18"/>
+
+<!-- Trees recovered -->
+<rect x="505" y="190" width="10" height="55" rx="5" fill="#5A3010"/>
+<ellipse cx="510" cy="185" rx="32" ry="30" fill="#1D9E75"/>
+<ellipse cx="494" cy="200" rx="22" ry="18" fill="#27C48A"/>
+<ellipse cx="525" cy="194" rx="18" ry="16" fill="#0F6E56"/>
+
+<rect x="565" y="200" width="8" height="45" rx="4" fill="#5A3010"/>
+<ellipse cx="569" cy="195" rx="24" ry="22" fill="#1D9E75"/>
+<ellipse cx="558" cy="208" rx="16" ry="14" fill="#27C48A"/>
+
+<rect x="625" y="195" width="10" height="50" rx="5" fill="#5A3010"/>
+<ellipse cx="630" cy="188" rx="30" ry="28" fill="#1D9E75"/>
+<ellipse cx="615" cy="200" rx="20" ry="18" fill="#27C48A"/>
+<ellipse cx="644" cy="195" rx="16" ry="15" fill="#0F6E56"/>
+
+<rect x="690" y="205" width="8" height="40" rx="4" fill="#5A3010"/>
+<ellipse cx="694" cy="200" rx="22" ry="20" fill="#1D9E75"/>
+
+<!-- Grass tufts -->
+<path d="M470 245 Q474 234 478 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+<path d="M482 245 Q486 236 490 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+<path d="M536 245 Q540 237 544 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+<path d="M600 245 Q604 236 608 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+<path d="M680 245 Q684 236 688 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+<path d="M716 245 Q720 237 724 245" stroke="#3B7A18" stroke-width="2" fill="none"/>
+
+<!-- Flowers -->
+<circle cx="492" cy="244" r="4" fill="#FAC775"/>
+<circle cx="545" cy="244" r="3" fill="#FAC775"/>
+<circle cx="609" cy="244" r="4" fill="#F5C4B3"/>
+
+<!-- Bird -->
+<path d="M580 170 Q590 162 600 170" stroke="#9FE1CB" stroke-width="2" fill="none"/>
+<path d="M600 170 Q610 162 618 170" stroke="#9FE1CB" stroke-width="2" fill="none"/>
+
+<!-- Stream -->
+<path d="M465 310 Q500 305 540 312 Q580 318 620 308 Q650 300 680 308 L745 310 L745 325 L465 325 Z" fill="#378ADD" opacity="0.7"/>
+
+<!-- success indicators -->
+<rect x="465" y="308" width="280" height="28" rx="4" fill="#0A3A14"/>
+<text x="605" y="326" class="ft" font-size="10" fill="#9FE1CB" text-anchor="middle">Biodiversidade  •  Solo fértil  •  Nascentes</text>
+
+<text x="400" y="425" class="ft" font-size="22" fill="#9FE1CB" text-anchor="middle" font-weight="700">Recuperação de Áreas Degradadas</text>
+<text x="400" y="452" class="ft" font-size="13" fill="#5DCAA5" text-anchor="middle">Restauração ecológica e recomposição da biodiversidade</text>
+</svg>
