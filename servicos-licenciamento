@@ -1,0 +1,53 @@
+<svg width="800" height="480" viewBox="0 0 800 480" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Licenciamento Ambiental</title>
+<desc>Documento oficial com folha verde e selo de aprovação representando licenciamento ambiental</desc>
+<style>.ft{font-family:'Segoe UI',Arial,sans-serif}</style>
+
+<rect width="800" height="480" fill="#0F4C3A"/>
+<rect x="0" y="360" width="800" height="120" fill="#0A3328"/>
+<circle cx="680" cy="70" r="100" fill="#0D3D2F"/>
+<circle cx="90" cy="410" r="75" fill="#0D3D2F"/>
+
+<!-- Document -->
+<rect x="190" y="60" width="240" height="320" rx="12" fill="#F0EDE4"/>
+<rect x="190" y="60" width="240" height="34" rx="12" fill="#1D9E75"/>
+<rect x="190" y="80" width="240" height="14" fill="#1D9E75"/>
+<text x="310" y="82" class="ft" font-size="12" fill="#FFFFFF" text-anchor="middle" font-weight="700">LICENÇA AMBIENTAL</text>
+<rect x="212" y="112" width="160" height="7" rx="3" fill="#C8C3B4"/>
+<rect x="212" y="126" width="130" height="7" rx="3" fill="#C8C3B4"/>
+<rect x="212" y="140" width="145" height="7" rx="3" fill="#C8C3B4"/>
+<rect x="212" y="162" width="196" height="1" fill="#DEDAD0"/>
+<rect x="212" y="172" width="100" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="184" width="140" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="196" width="90" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="208" width="150" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="220" width="115" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="244" width="196" height="1" fill="#DEDAD0"/>
+<rect x="212" y="254" width="80" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="266" width="105" height="6" rx="2" fill="#D0CCC0"/>
+<rect x="212" y="298" width="90" height="36" rx="6" fill="#1D9E75"/>
+<text x="257" y="320" class="ft" font-size="11" fill="#FFFFFF" text-anchor="middle" font-weight="700">APROVADO</text>
+<rect x="318" y="298" width="90" height="36" rx="6" fill="#F0EDE4" stroke="#C8C3B4" stroke-width="1.5"/>
+<text x="363" y="314" class="ft" font-size="10" fill="#999" text-anchor="middle">Assinatura</text>
+<rect x="318" y="328" width="90" height="1" fill="#C8C3B4"/>
+
+<!-- Tree -->
+<g transform="translate(490,80)">
+  <ellipse cx="65" cy="160" rx="60" ry="22" fill="#0A5A3A"/>
+  <rect x="59" y="55" width="10" height="108" rx="5" fill="#5A3010"/>
+  <ellipse cx="64" cy="52" rx="50" ry="46" fill="#1D9E75"/>
+  <ellipse cx="46" cy="68" rx="34" ry="29" fill="#27C48A"/>
+  <ellipse cx="82" cy="60" rx="28" ry="25" fill="#0F6E56"/>
+  <path d="M64 95 Q44 75 34 58" stroke="#0A5A3A" stroke-width="2.5" fill="none"/>
+  <path d="M64 95 Q80 68 90 50" stroke="#0A5A3A" stroke-width="2.5" fill="none"/>
+</g>
+
+<!-- Seal -->
+<circle cx="590" cy="270" r="54" fill="#0A6644" stroke="#27C48A" stroke-width="3.5"/>
+<circle cx="590" cy="270" r="44" fill="none" stroke="#27C48A" stroke-width="1.5" stroke-dasharray="5,4"/>
+<path d="M567 270 L581 284 L614 251" stroke="#FFFFFF" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+<!-- Labels -->
+<text x="400" y="438" class="ft" font-size="22" fill="#9FE1CB" text-anchor="middle" font-weight="700">Licenciamento Ambiental</text>
+<text x="400" y="462" class="ft" font-size="13" fill="#5DCAA5" text-anchor="middle">Conformidade legal para o desenvolvimento sustentável</text>
+</svg>
