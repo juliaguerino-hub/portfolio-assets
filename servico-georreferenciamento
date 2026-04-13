@@ -1,0 +1,135 @@
+<svg width="800" height="480" viewBox="0 0 800 480" role="img" xmlns="http://www.w3.org/2000/svg">
+<title>Georreferenciamento</title>
+<desc>Ilustração de georreferenciamento com mapa, coordenadas e satélite</desc>
+<style>.ft{font-family:'Segoe UI',Arial,sans-serif}</style>
+
+<rect width="800" height="480" fill="#0C1A2E"/>
+<rect x="0" y="390" width="800" height="90" fill="#071020"/>
+<circle cx="700" cy="55" r="105" fill="#0A1525"/>
+<circle cx="70" cy="440" r="75" fill="#0A1525"/>
+
+<!-- Stars -->
+<circle cx="100" cy="40" r="1.5" fill="#B5D4F4"/>
+<circle cx="180" cy="25" r="1" fill="#B5D4F4"/>
+<circle cx="240" cy="55" r="1.5" fill="#B5D4F4"/>
+<circle cx="350" cy="30" r="1" fill="#B5D4F4"/>
+<circle cx="470" cy="20" r="1.5" fill="#B5D4F4"/>
+<circle cx="560" cy="45" r="1" fill="#B5D4F4"/>
+<circle cx="650" cy="30" r="1.5" fill="#B5D4F4"/>
+<circle cx="740" cy="55" r="1" fill="#B5D4F4"/>
+<circle cx="130" cy="80" r="1" fill="#B5D4F4"/>
+<circle cx="720" cy="90" r="1.5" fill="#B5D4F4"/>
+
+<!-- Satellite -->
+<g transform="translate(650, 60)">
+  <rect x="-10" y="-8" width="20" height="16" rx="3" fill="#2463A8" stroke="#378ADD" stroke-width="1.5"/>
+  <rect x="-36" y="-4" width="24" height="8" rx="2" fill="#185FA5" stroke="#4A90D9" stroke-width="1"/>
+  <rect x="12" y="-4" width="24" height="8" rx="2" fill="#185FA5" stroke="#4A90D9" stroke-width="1"/>
+  <circle cx="0" cy="0" r="4" fill="#7EC8F4"/>
+  <!-- signal lines -->
+  <path d="M0 8 Q-20 40 -30 80" stroke="#378ADD" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M0 8 Q10 45 5 80" stroke="#378ADD" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+  <path d="M0 8 Q30 50 50 85" stroke="#378ADD" stroke-width="1" fill="none" stroke-dasharray="4,3" opacity="0.6"/>
+</g>
+
+<!-- Map area -->
+<rect x="80" y="100" width="480" height="270" rx="10" fill="#0F2040" stroke="#2463A8" stroke-width="2"/>
+
+<!-- Grid lines on map -->
+<line x1="80" y1="145" x2="560" y2="145" stroke="#162A44" stroke-width="1"/>
+<line x1="80" y1="190" x2="560" y2="190" stroke="#162A44" stroke-width="1"/>
+<line x1="80" y1="235" x2="560" y2="235" stroke="#162A44" stroke-width="1"/>
+<line x1="80" y1="280" x2="560" y2="280" stroke="#162A44" stroke-width="1"/>
+<line x1="80" y1="325" x2="560" y2="325" stroke="#162A44" stroke-width="1"/>
+<line x1="160" y1="100" x2="160" y2="370" stroke="#162A44" stroke-width="1"/>
+<line x1="240" y1="100" x2="240" y2="370" stroke="#162A44" stroke-width="1"/>
+<line x1="320" y1="100" x2="320" y2="370" stroke="#162A44" stroke-width="1"/>
+<line x1="400" y1="100" x2="400" y2="370" stroke="#162A44" stroke-width="1"/>
+<line x1="480" y1="100" x2="480" y2="370" stroke="#162A44" stroke-width="1"/>
+
+<!-- Terrain features on map -->
+<!-- water body -->
+<path d="M120 200 Q160 188 200 200 Q230 210 260 198 Q280 190 300 198 L300 260 Q260 268 220 256 Q180 244 140 256 Q110 264 90 256 L90 210 Z" fill="#165A9C" opacity="0.7"/>
+<!-- forest area -->
+<path d="M310 130 Q360 125 400 135 Q430 145 440 175 Q440 210 410 220 Q380 228 350 218 Q310 205 300 175 Q292 152 310 130 Z" fill="#1A5C1A" opacity="0.7"/>
+<!-- urban area -->
+<rect x="140" y="270" width="120" height="80" rx="4" fill="#2A2A40" opacity="0.6"/>
+<!-- road network -->
+<path d="M80 235 Q200 230 320 235 Q420 240 560 232" stroke="#3A4A5A" stroke-width="3" fill="none"/>
+<path d="M240 100 Q236 180 240 370" stroke="#3A4A5A" stroke-width="2" fill="none"/>
+<path d="M150 235 Q200 280 200 370" stroke="#3A4A5A" stroke-width="1.5" fill="none"/>
+
+<!-- Coordinate labels -->
+<text x="88" y="116" class="ft" font-size="9" fill="#4A6A8A">23°S</text>
+<text x="88" y="161" class="ft" font-size="9" fill="#4A6A8A">24°S</text>
+<text x="88" y="206" class="ft" font-size="9" fill="#4A6A8A">25°S</text>
+<text x="88" y="251" class="ft" font-size="9" fill="#4A6A8A">26°S</text>
+<text x="88" y="296" class="ft" font-size="9" fill="#4A6A8A">27°S</text>
+<text x="88" y="341" class="ft" font-size="9" fill="#4A6A8A">28°S</text>
+<text x="155" y="382" class="ft" font-size="9" fill="#4A6A8A">46°W</text>
+<text x="235" y="382" class="ft" font-size="9" fill="#4A6A8A">47°W</text>
+<text x="315" y="382" class="ft" font-size="9" fill="#4A6A8A">48°W</text>
+<text x="395" y="382" class="ft" font-size="9" fill="#4A6A8A">49°W</text>
+<text x="475" y="382" class="ft" font-size="9" fill="#4A6A8A">50°W</text>
+
+<!-- Pin markers -->
+<g transform="translate(205,195)">
+  <path d="M0 -22 Q10 -22 10 -12 Q10 0 0 12 Q-10 0 -10 -12 Q-10 -22 0 -22 Z" fill="#E24B4A"/>
+  <circle cx="0" cy="-12" r="5" fill="#FFFFFF"/>
+</g>
+<g transform="translate(360,165)">
+  <path d="M0 -20 Q9 -20 9 -11 Q9 0 0 11 Q-9 0 -9 -11 Q-9 -20 0 -20 Z" fill="#FAC775"/>
+  <circle cx="0" cy="-11" r="4" fill="#FFFFFF"/>
+</g>
+<g transform="translate(310,280)">
+  <path d="M0 -18 Q8 -18 8 -10 Q8 0 0 10 Q-8 0 -8 -10 Q-8 -18 0 -18 Z" fill="#27C48A"/>
+  <circle cx="0" cy="-10" r="4" fill="#FFFFFF"/>
+</g>
+<g transform="translate(450,230)">
+  <path d="M0 -18 Q8 -18 8 -10 Q8 0 0 10 Q-8 0 -8 -10 Q-8 -18 0 -18 Z" fill="#378ADD"/>
+  <circle cx="0" cy="-10" r="4" fill="#FFFFFF"/>
+</g>
+
+<!-- Crosshair on one pin -->
+<circle cx="205" cy="195" r="18" fill="none" stroke="#E24B4A" stroke-width="1.5" stroke-dasharray="3,2"/>
+<line x1="187" y1="195" x2="196" y2="195" stroke="#E24B4A" stroke-width="1.5"/>
+<line x1="214" y1="195" x2="223" y2="195" stroke="#E24B4A" stroke-width="1.5"/>
+<line x1="205" y1="177" x2="205" y2="186" stroke="#E24B4A" stroke-width="1.5"/>
+<line x1="205" y1="204" x2="205" y2="213" stroke="#E24B4A" stroke-width="1.5"/>
+
+<!-- Coordinate popup -->
+<rect x="570" y="135" width="170" height="90" rx="8" fill="#0D2040" stroke="#378ADD" stroke-width="1.5"/>
+<text x="655" y="156" class="ft" font-size="10" fill="#7EC8F4" text-anchor="middle" font-weight="700">COORDENADAS</text>
+<text x="584" y="174" class="ft" font-size="10" fill="#B5D4F4">Lat: -23.548.756</text>
+<text x="584" y="190" class="ft" font-size="10" fill="#B5D4F4">Lon: -46.632.490</text>
+<text x="584" y="207" class="ft" font-size="10" fill="#7EC8F4">Alt: 760 m</text>
+<rect x="580" y="164" width="150" height="1" fill="#162A44"/>
+
+<!-- Legend box -->
+<rect x="570" y="238" width="170" height="120" rx="8" fill="#0D2040" stroke="#2463A8" stroke-width="1.5"/>
+<text x="655" y="258" class="ft" font-size="10" fill="#7EC8F4" text-anchor="middle" font-weight="700">LEGENDA</text>
+<rect x="580" y="264" width="150" height="1" fill="#162A44"/>
+<circle cx="592" cy="277" r="5" fill="#165A9C" opacity="0.7"/>
+<text x="603" y="281" class="ft" font-size="9" fill="#B5D4F4">Corpos d'água</text>
+<rect x="585" y="287" width="12" height="8" rx="2" fill="#1A5C1A" opacity="0.7"/>
+<text x="603" y="295" class="ft" font-size="9" fill="#B5D4F4">Área de preservação</text>
+<rect x="585" y="302" width="12" height="8" rx="2" fill="#2A2A40" opacity="0.7"/>
+<text x="603" y="310" class="ft" font-size="9" fill="#B5D4F4">Área urbanizada</text>
+<path d="M584 320 L596 320" stroke="#3A4A5A" stroke-width="2"/>
+<text x="603" y="324" class="ft" font-size="9" fill="#B5D4F4">Malha viária</text>
+<circle cx="592" cy="337" r="4" fill="#E24B4A"/>
+<text x="603" y="341" class="ft" font-size="9" fill="#B5D4F4">Ponto de interesse</text>
+
+<!-- Scale bar -->
+<rect x="90" y="355" width="80" height="6" rx="2" fill="#378ADD"/>
+<rect x="170" y="355" width="80" height="6" rx="2" fill="#0F2040" stroke="#378ADD" stroke-width="1"/>
+<text x="90" y="372" class="ft" font-size="9" fill="#7EC8F4">0</text>
+<text x="166" y="372" class="ft" font-size="9" fill="#7EC8F4">5 km</text>
+<text x="242" y="372" class="ft" font-size="9" fill="#7EC8F4">10 km</text>
+
+<!-- Signal waves from satellite to map -->
+<path d="M650 140 Q500 160 450 175" stroke="#2463A8" stroke-width="1" fill="none" stroke-dasharray="5,4" opacity="0.5"/>
+
+<text x="400" y="424" class="ft" font-size="22" fill="#7EC8F4" text-anchor="middle" font-weight="700">Georreferenciamento</text>
+<text x="400" y="452" class="ft" font-size="13" fill="#4A90D9" text-anchor="middle">Mapeamento e análise espacial com precisão geográfica</text>
+</svg>
